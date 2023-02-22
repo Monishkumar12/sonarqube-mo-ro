@@ -12,12 +12,12 @@
 	
     <distributionManagement>
 	<repository>
-              <id>narendra</id>
- 	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-releases/</url>     
+              <id>narendra-snapshot</id>
+ 	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>     
 	</repository>
  
  	<snapshotRepository>
-	      <id>narendra</id>
+	      <id>narendra-snapshot</id>
 	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>
 	</snapshotRepository>
 
