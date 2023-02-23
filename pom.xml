@@ -10,19 +10,6 @@
 
     <name>Example of basic Maven project to integrate with SonarQube</name>
 	
-#    <distributionManagement>
-#	<repository>
-#             <id>narendra-snapshot</id>
-# 	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>     
-#	</repository>
- 
-#	<snapshotRepository>
-#	      <id>narendra-snapshot</id>
-#	      <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>
-#	</snapshotRepository>
-#
-#    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
