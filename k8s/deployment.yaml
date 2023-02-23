@@ -1,6 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+annotations:
+    app.openshift.io/vcs-uri: 'https://github.com/Monishkumar12/sonarqube-mo-ro.git'
+    app.openshift.io/vcs-ref: 'master'
   labels:
     app: sonarqube-maven-example
   name: sonarqube-maven-example
