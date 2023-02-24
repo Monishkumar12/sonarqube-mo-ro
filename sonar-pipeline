@@ -90,5 +90,18 @@ spec:
       workspaces:
         - name: source
           workspace: pvc
+    - name: apply-manifests
+      workspaces:
+        - name: source
+          workspace: pvc
+      params:
+        - name: manifest_dir
+          value: k8s
+      runAfter:
+        - build-image
+      taskRef:
+        kind: Task
+        name: apply-manifests
   workspaces:
     - name: pvc
+  resources: []
