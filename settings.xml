@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>narendra-snapshot</id>
+      <id>lucky-snapshot</id>
       <username>sumit</username>
       <password>sumit</password>
     </server>
@@ -47,9 +47,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>narendra-snapshot</id>
+         <id>lucky-snapshot</id>
          <name>your custom repo</name>
-         <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/narendra-snapshot/</url>
+         <url>http://nexus-java-cicd.apps.cluster-s7cmb.s7cmb.sandbox2460.opentlc.com/repository/lucky-snapshot/</url>
        </repository>
      </repositories>
    </profile>
