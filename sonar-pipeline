@@ -1,11 +1,11 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: newpipe
-  namespace: newtask
+  name: java-pipeline
+  namespace: java-project
 spec:
   params:
-    - default: quay.io/rohanp/newdemo
+    - default: quay.io/narendraprasadn/java-cicd
       description: The fully qualified image name e.g example.com/tekton-tutorial/greeter
       name: IMAGE_NAME
       type: string
