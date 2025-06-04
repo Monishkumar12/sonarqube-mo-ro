@@ -65,14 +65,6 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <properties>
-               <sonar.host.url>https://sonar-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_cb209b6c60f3e1194a1091f35beba4326021c9b7</sonar.login>
-               <sonar.projectName>demo</sonar.projectName>
-               <sonar.projectVersion>main</sonar.projectVersion>
-               <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
-               <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
-            </properties>
         </profile>
         <profile>
             <id>coverage</id>
@@ -103,16 +95,5 @@
             </build>
         </profile>
     </profiles>
-<distributionManagement>
-    <snapshotRepository>
-      <id>demo-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
-    </snapshotRepository>
-	<repository>
-	  <id>demo-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
-    </repository>
-  
-  </distributionManagement>
 
 </project>
